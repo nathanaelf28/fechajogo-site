@@ -1,0 +1,13 @@
+# Sistema operacional / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Scratch
+*.log
+*.bak
+_to_delete/
+
+# Nada de node aqui, mas se um dia entrar um build:
+node_modules/
