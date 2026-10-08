@@ -37,14 +37,33 @@ convertidas para WebP (qualidade 80), o que deixa o arquivo final em ~162 KB.
 O texto afirma coisas concretas sobre o produto. Se alguma mudar, a página
 mente:
 
-- é gratuito (existe só a tela de apoio via Pix, opcional);
-- avulso entra sem criar conta, só com o telefone;
-- login por Google **ou** código de 6 dígitos no e-mail;
-- esportes: vôlei, futebol, futsal, beach tênis e peteca;
+- hoje é gratuito (existe só a tela de apoio via Pix, opcional) e o plano Pro
+  está "em construção" — trocar o FAQ "É pago?" e o rodapé quando a
+  assinatura sair;
+- ninguém do grupo cria conta: grupo fixo entra pelo código de 6 letras,
+  avulso pelo telefone;
+- organizador entra por Google **ou** código no e-mail;
+- cada grupo escolhe um ícone livre (não é mais uma lista fixa de esportes);
+- sorteio equilibrado pela nota, "Refazer sorteio" e "Sortear de novo" só
+  entre os times marcados;
+- votação da rodada (🏆 Craque e ⚡ Lance): só quem confirmou presença vota,
+  voto secreto, resultado vira card;
+- um grupo por organizador (múltiplos grupos fica pro Pro);
 - dá pra excluir a conta pelo próprio app.
 
 Os prints também envelhecem — a tela do organizador e a de sorteio mudam com
 alguma frequência.
+
+## Quando o FechaJogo tiver domínio próprio
+
+Dois endereços mudam, e cada um está em mais de um lugar:
+
+- **Endereço do app** (`https://fechajogo-app.vercel.app/login`): os quatro
+  botões deste `index.html` (topo, hero, fechamento e rodapé).
+- **Endereço deste site** (`https://nathanaelf28.github.io/fechajogo-site/`):
+  o app cita ele no fim dos textos compartilhados no WhatsApp (lista de
+  presença e times). Mora numa constante só, `lib/site.ts` no repositório do
+  app.
 
 ## Fontes
 
