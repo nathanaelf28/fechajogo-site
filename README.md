@@ -6,7 +6,7 @@ Página única de marketing do app. Todos os botões levam para
 ## Como abrir
 
 Dá dois cliques no `index.html`. É só isso — o arquivo é **autocontido**:
-CSS, fontes do sistema e as três imagens estão todos dentro dele, em
+CSS, fontes do sistema e as quatro imagens estão todos dentro dele, em
 `data:` URI. Não depende de internet, de CDN nem de servidor. Funciona
 aberto do disco, mandado por e-mail ou hospedado em qualquer lugar.
 
@@ -22,15 +22,15 @@ Nada precisa ser buildado.
 
 ## Sobre as imagens
 
-Os três prints saíram do tarball dos guias em PDF
-(`../guias/fonte-dos-guias.tar.gz`), que usa o **elenco fictício** — Bruna
+Os três prints e o card da votação saíram do harness de
+`../prints/2026-10-28/harness/` (layout novo, 28/10/2026), que usa o **elenco fictício** — Bruna
 Lima, Caio Ferreira, etc. — e telefones inventados.
 
 ⚠️ **Não troque por prints de `../prints/`.** Aqueles têm nome e telefone de
 gente real, e esta página é feita pra ser pública.
 
-As imagens foram recortadas para 780×1688, redimensionadas para 640×1385 e
-convertidas para WebP (qualidade 80), o que deixa o arquivo final em ~162 KB.
+Os prints foram recortados para 780×1688, redimensionados para 640×1385 e
+convertidos para WebP (qualidade 80); o card, 720×720. O arquivo final fica em ~207 KB.
 
 ## O que precisa de atenção quando o app mudar
 
@@ -40,14 +40,14 @@ mente:
 - hoje é gratuito (existe só a tela de apoio via Pix, opcional) e o plano Pro
   está "em construção" — trocar o FAQ "É pago?" e o rodapé quando a
   assinatura sair;
-- ninguém do grupo cria conta: grupo fixo entra pelo código de 6 letras,
-  avulso pelo telefone;
-- organizador entra por Google **ou** código no e-mail;
+- ninguém do grupo cria conta: grupo fixo e avulso entram por um código de
+  6 caracteres (o avulso ganha o dele na primeira vez; telefone é opcional);
+- organizador entra por Google **ou** pelo código da conta (10 caracteres);
 - cada grupo escolhe um ícone livre (não é mais uma lista fixa de esportes);
 - sorteio equilibrado pela nota, "Refazer sorteio" e "Sortear de novo" só
   entre os times marcados;
-- votação da rodada (🏆 Craque e ⚡ Lance): só quem confirmou presença vota,
-  voto secreto, resultado vira card;
+- votação da rodada (🏆 pódio do craque e ⚡ Lance): só quem confirmou presença
+  vota, voto secreto, resultado vira card (seção "Depois do jogo");
 - um grupo por organizador (múltiplos grupos fica pro Pro);
 - dá pra excluir a conta pelo próprio app.
 
